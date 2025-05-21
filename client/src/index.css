@@ -124,9 +124,10 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-primary-light rounded-md;
+  background-color: hsl(var(--primary-light));
+  border-radius: 0.375rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-primary;
+  background-color: hsl(var(--primary));
 }
