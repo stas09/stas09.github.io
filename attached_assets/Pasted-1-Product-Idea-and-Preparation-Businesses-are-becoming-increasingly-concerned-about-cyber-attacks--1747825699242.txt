@@ -1,0 +1,48 @@
+1. Product Idea and Preparation
+Businesses are becoming increasingly concerned about cyber attacks because they run the danger of
+suffering monetary losses, data breaches, and harm to their brand. Our initiative tackles this issue by
+offering comprehensive reporting, awareness training, and controlled cybersecurity testing, including
+phishing simulations and vulnerability assessments, to increase corporate resilience against actual
+cyberthreats.
+1.1. Product idea
+Our mentor, Jr. Assistant Professor Beldyga Natalia Ewa, gave the suggestion to team K553 which
+was originally denominated "Preparedness, Resilience, and Response Capacity of the Civilian
+Population to Crisis and Emergency". With this premise, we honed our area of expertise into the
+research question of "How could we assist university students and staff to engage immediately in the
+event of a cyberattack on the university information system, while protecting data and ensuring
+business continuity?"
+At first, we thought a real-time warning assistant for cybersecurity would be a good proposal, capable
+of identifying a threat, guiding the individuals through the steps of responding, while educating the
+individual about safe digital practices. But by week 5, when we started to market research, we saw
+that our solution would need to economically sustainable. This led us to restate the initiative as a
+cybersecurity risk assessment service for businesses.
+Thus, our project is a cybersecurity vulnerability assessment service that enables businesses to
+identify vulnerabilities through simulated cyberattacks, which includes actionable recommendations
+for improved security. The service includes:
+1. Simulated Cyber Attacks – Performing controlled phishing attacks, penetration testing and
+vulnerability assessments to uncover security vulnerabilities.
+2. Security Reporting – Providing businesses with extensive reporting and recommendations to
+improve their cybersecurity practices.
+3. Cyber Awareness Training – Offering educational courses and workshops to help employees
+recognize and prevent cyber threats.
+The goal is to enhance cybersecurity awareness and resilience among businesses by identifying risks
+before real attackers exploit them. The service is targeted at companies that want to test their security
+measures, educate employees, and comply with industry security standards.
+On the attached figures 1 our webpage mockup could be seen. The main page will show “Dashboard”
+with the plot of finished simulated phishing for example. Then, there are few pie charts like: “Email
+sent”, “Email Opened”, “Clicked Link” and “Submitted Data” which are pretty self explanatory. Next
+there will be a list of “Recent Campaigns”.
+On Figure 2 would be seen more detailed results of selected campaign.
+10
+.
+Fig. 1. Screenshot of mock-up of product webpage with core features user will be able to see
+11
+Fig. 2. Screenshot of mock-up of product webpage with core features user will be able to see
+The included figures demonstrate a potential web-based interface to track phishing simulation
+campaigns. Figure 1 depicts an overall dashboard used to visualize key performance indicators
+relevant to simulated phishing attempts. There are visual data displays showing the user engagement
+indicators and the outcomes of the campaigns, all in support of assessing overall security awareness
+levels. A summary of past campaigns also appears to ease access to ongoing past/present simulations.
+Figure 2 outlines more detailed reporting methodologies for each campaign, allowing an analysis of
+the individual campaign results. This reporting format will allow the organizations to maintain
+tracking of the progress of their cyber training activities and enhance its effectiveness.
