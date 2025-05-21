@@ -1,4 +1,4 @@
-import { Link, useLocation } from "wouter";
+import { useLocation } from "wouter";
 
 interface SidebarProps {
   className?: string;
@@ -23,44 +23,49 @@ export default function Sidebar({ className = "" }: SidebarProps) {
       <nav className="flex-1 p-2">
         <ul>
           <li>
-            <Link href="/">
-              <a className={`flex items-center space-x-2 p-3 rounded-lg mb-1 ${isActive("/") ? "bg-primary-light" : "hover:bg-primary-light"}`}>
-                <i className="bi bi-speedometer2"></i>
-                <span>Dashboard</span>
-              </a>
-            </Link>
+            <a 
+              href="/" 
+              className={`flex items-center space-x-2 p-3 rounded-lg mb-1 ${isActive("/") ? "bg-primary-light" : "hover:bg-primary-light"}`}
+            >
+              <i className="bi bi-speedometer2"></i>
+              <span>Dashboard</span>
+            </a>
           </li>
           <li>
-            <Link href="/campaigns">
-              <a className={`flex items-center space-x-2 p-3 rounded-lg mb-1 ${isActive("/campaigns") ? "bg-primary-light" : "hover:bg-primary-light"}`}>
-                <i className="bi bi-graph-up"></i>
-                <span>Campaigns</span>
-              </a>
-            </Link>
+            <a 
+              href="/campaigns" 
+              className={`flex items-center space-x-2 p-3 rounded-lg mb-1 ${isActive("/campaigns") ? "bg-primary-light" : "hover:bg-primary-light"}`}
+            >
+              <i className="bi bi-graph-up"></i>
+              <span>Campaigns</span>
+            </a>
           </li>
           <li>
-            <Link href="/reports">
-              <a className={`flex items-center space-x-2 p-3 rounded-lg mb-1 ${isActive("/reports") ? "bg-primary-light" : "hover:bg-primary-light"}`}>
-                <i className="bi bi-journal-text"></i>
-                <span>Reports</span>
-              </a>
-            </Link>
+            <a 
+              href="/reports" 
+              className={`flex items-center space-x-2 p-3 rounded-lg mb-1 ${isActive("/reports") ? "bg-primary-light" : "hover:bg-primary-light"}`}
+            >
+              <i className="bi bi-journal-text"></i>
+              <span>Reports</span>
+            </a>
           </li>
           <li>
-            <Link href="/team">
-              <a className={`flex items-center space-x-2 p-3 rounded-lg mb-1 ${isActive("/team") ? "bg-primary-light" : "hover:bg-primary-light"}`}>
-                <i className="bi bi-people"></i>
-                <span>Team</span>
-              </a>
-            </Link>
+            <a 
+              href="/team" 
+              className={`flex items-center space-x-2 p-3 rounded-lg mb-1 ${isActive("/team") ? "bg-primary-light" : "hover:bg-primary-light"}`}
+            >
+              <i className="bi bi-people"></i>
+              <span>Team</span>
+            </a>
           </li>
           <li>
-            <Link href="/settings">
-              <a className={`flex items-center space-x-2 p-3 rounded-lg mb-1 ${isActive("/settings") ? "bg-primary-light" : "hover:bg-primary-light"}`}>
-                <i className="bi bi-gear"></i>
-                <span>Settings</span>
-              </a>
-            </Link>
+            <a 
+              href="/settings" 
+              className={`flex items-center space-x-2 p-3 rounded-lg mb-1 ${isActive("/settings") ? "bg-primary-light" : "hover:bg-primary-light"}`}
+            >
+              <i className="bi bi-gear"></i>
+              <span>Settings</span>
+            </a>
           </li>
         </ul>
       </nav>
