@@ -91,6 +91,7 @@ export default function SecurityInsights() {
                   barSize={20}
                   fillOpacity={0.9}
                   fill="#4CAF50"
+                  name="Risk Score"
                 />
               </BarChart>
             </ResponsiveContainer>
