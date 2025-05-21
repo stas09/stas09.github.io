@@ -105,7 +105,7 @@ export default function PerformanceMetrics({ campaign }: PerformanceMetricsProps
                   <YAxis dataKey="name" type="category" />
                   <Tooltip formatter={(value) => [`${value}%`, 'Failure Rate']} />
                   <Bar 
-                    dataKey="value" 
+                    dataKey="value"
                     name="Failure Rate"
                     radius={[0, 4, 4, 0]}
                     fill="#4CAF50"
