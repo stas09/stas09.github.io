@@ -49,11 +49,12 @@ export default function RecentCampaigns() {
     <div className="mb-6">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-semibold text-gray-800">Recent Campaigns</h2>
-        <Link href="/campaigns">
-          <a className="text-secondary hover:text-secondary-dark font-medium text-sm">
-            View all campaigns <i className="bi bi-arrow-right ml-1"></i>
-          </a>
-        </Link>
+        <a 
+          href="/campaigns" 
+          className="text-secondary hover:text-secondary-dark font-medium text-sm"
+        >
+          View all campaigns <i className="bi bi-arrow-right ml-1"></i>
+        </a>
       </div>
       
       <div className="bg-white rounded-lg shadow-sm border border-gray-200">
@@ -108,9 +109,12 @@ export default function RecentCampaigns() {
                     {campaign.complianceFramework || '--'}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                    <Link href={`/campaign/${campaign.id}`}>
-                      <a className="text-secondary hover:text-secondary-dark">View details</a>
-                    </Link>
+                    <a 
+                      href={`/campaign/${campaign.id}`} 
+                      className="text-secondary hover:text-secondary-dark"
+                    >
+                      View details
+                    </a>
                   </td>
                 </tr>
               ))}

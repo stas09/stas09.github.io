@@ -18,11 +18,9 @@ export default function CampaignDetails() {
       {/* Campaign Details Header */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
         <div>
-          <Link href="/">
-            <a className="text-gray-600 hover:text-gray-800 mb-2 flex items-center">
-              <i className="bi bi-arrow-left mr-1"></i> Back to Dashboard
-            </a>
-          </Link>
+          <a href="/" className="text-gray-600 hover:text-gray-800 mb-2 flex items-center">
+            <i className="bi bi-arrow-left mr-1"></i> Back to Dashboard
+          </a>
           <h1 className="text-2xl font-bold text-gray-800">{campaign.name}</h1>
           <p className="text-gray-500">{campaign.type} • {campaign.startDate}</p>
         </div>

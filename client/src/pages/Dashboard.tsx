@@ -16,11 +16,12 @@ export default function Dashboard() {
           <p className="text-gray-500 text-sm mt-1">Actionable insights for your business security posture</p>
         </div>
         <div className="flex mt-2 md:mt-0">
-          <Link href="/new-campaign">
-            <a className="bg-secondary hover:bg-secondary-dark text-white px-4 py-2 rounded-lg mr-2 flex items-center">
-              <i className="bi bi-plus-circle mr-1"></i> New Assessment
-            </a>
-          </Link>
+          <a 
+            href="/new-campaign" 
+            className="bg-secondary hover:bg-secondary-dark text-white px-4 py-2 rounded-lg mr-2 flex items-center"
+          >
+            <i className="bi bi-plus-circle mr-1"></i> New Assessment
+          </a>
           <div className="relative">
             <select className="border border-gray-300 rounded-lg px-3 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-secondary">
               <option>Last 30 days</option>
